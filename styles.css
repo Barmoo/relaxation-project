@@ -6,13 +6,14 @@
     overflow-x: hidden;
 }
 
-.statement{
-    color:white;
+.statement {
+    color: white;
     font-size: 40px;
     text-align: center;
     justify-content: center;
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
     background-image: url(./home-image.png);
@@ -22,15 +23,22 @@
     background-attachment: fixed;
     justify-content: center;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
     height: 70px;
     align-items: center;
+    background-color: gray;
+    position: fixed;
 }
-.overlay{
+.nav-items{
+    background-color: white;
+    color: black;
+}
+.overlay {
     height: 100%;
     width: 100%;
     display: flex;
@@ -39,4 +47,62 @@ nav{
     justify-content: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+ .sub-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-top: 42px;
+}
+
+.sub-statement {
+    width: 50%;
+}
+
+.sub-hero {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.gallery-img1 {
+    padding-bottom: 40px;
+}
+
+.gallery-img2 {
+    padding-top: 40px;
+}
+.offer-items{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+.features{
+    margin: 50px;
+    text-align: center;
+}
+.features h5{
+    color: blue;
+
+}
+.button{
+    background-color: white;
+    color: blue;
+    border: 2px solid rgb(40, 88, 84);
+    margin: 20px;
+    padding: 10px 100px;
+}
+.button-div{
+    text-align: center;
 }
